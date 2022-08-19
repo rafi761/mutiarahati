@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Navbar */
+
+.nav-right li a{
+    font-size: 0.85rem;
+}
+
+.nav-login a{
+    background-color: #12a4d9;
+    border-radius: 7px;
+    padding: 5px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+.nav-login a:hover{
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 5px 0;
+    text-align: center;
+    color: #12a4d9;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.active{
+    border-bottom: 1px solid #000;
+}
+
+
+/* End of Nav */
+
+
+/* Banner */
+
+.banner__layout{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), url("../img/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+}
+
+.banner__content{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+    color: #fff;
+    max-width: 600px;
+}
+
+.banner__des{
+    font-size: 12px;
+
+}
+
+.banner__content .banner__btn{
+    background-color: #12a4d9;
+    color: #fff;
+    font-weight: 500;
+    padding: 7px 20px;  
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
+
+.banner__content .banner__btn:hover{
+    background-color: #fff;
+    color: #12a4d9;
+    transition: .3s;
+}
+
+.modal-title, .modal__content{
+    color: #000;
+}
+
+/* End of Banner */
+
+
+/* Tentang Kami */
+
+.about__layout{
+
+}
+
+.about__content{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100%;
+}
+
+.about__left{
+    padding-left: 80px;
+}
+
+.about__border{
+    width: 120px;
+    border: 1px solid #000;
+}
+
+.about__des{
+    margin-bottom: 25px;
+}
+
+.about__btn {
+    background-color: #12a4d9;
+    color: #fff;
+    font-weight: 500;
+    padding: 7px 20px;
+    border-radius: 7px;
+}
+
+.about__btn:hover {
+    background-color: #fff;
+    color: gray;
+    transition: .5s;
+}
+
+.about__img{
+    width: 100%;
+    object-fit: contain;
+    max-height: 300px;
+}
+
+/* End of Tentang Kami */
+
+
+/* Pelayanan */
+
+.pelayanan__layout{
+    padding: 20px 0;
+}
+
+.pelayanan__title{
+    text-align: center;
+}
+
+.pelayanan__border{
+    width: 180px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.pelayanan__content{
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.pelayanan__content__desc{
+    font-size: .80rem;
+}
+
+.pelayanan__content__img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+/* End of Pelayanan */
+
+
+/* Pengurus */
+
+.pengurus__layout{
+    padding: 50px 40px;
+}
+
+.pengurus__content{
+    margin-top: 50px;
+}
+
+.pengurus__title {
+    text-align: center;
+}
+
+.pengurus__border {
+    width: 120px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.card__layout{
+    padding: 20px 7px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    min-height: 320px;
+}
+
+.pengurus__img{
+    object-fit: contain;
+    max-height: 120px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.carousel__layout{
+    border-bottom: none;
+}
+
+/* End of Pengurus */
+
+/* Visi */
+
+.visi__layout {
+    padding: 50px 40px;
+}
+
+.visi__title {
+    text-align: center;
+}
+
+.visi__border {
+    width: 120px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.visi__content{
+    margin-top: 50px;
+}
+
+.footer__layout{
+    padding: 50px 40px;
+    background-color: rgb(83, 82, 82);
+    color: #fff;
+}
+
+.footer__contact h4{
+    margin-bottom: 30px;
+}
+
+.footer__contact p{
+    margin-bottom: 5px;
+}
+
+.footer__tentang h4{
+    margin-bottom: 30px;
+}
+
+.footer__tentang p{
+    margin-bottom: 5px;
+}
+
+
+/* End of Visi */
+
+
+/* Login Page */
+
+.signin__layout{
+    padding: 20px;
+    width: 100%;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* End of Login Page */
+
+
+/* Pendaftaran */
+
+.pendaftaran__layout{
+    padding: 70px 0;
+}
+
+/* End of Pendaftaran */
+
+@media screen and (max-width: 768px){
+    /* Nav */
+
+    .active{
+        border-bottom: none;
+    }
+
+    /* End of Nav */
+
+    /* Banner */
+    .banner__content{
+        padding-left: 10px;
+    }
+
+    /* End of Banner */
+
+    /* Tentang Kami */
+
+    .about__content{
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .about__left{
+        padding-left: 25px;
+        margin-bottom: 25px;
+    }
+
+    .about__right{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* End of Tentang Kami */
+
+    /* Pelayanan */
+    .pelayanan__content_item{
+        margin-bottom: 25px;
+    }
+    /* End of Pelayanan */
+
+
+    /* Pengurus */
+    .card__layout{
+        margin-top: 20px;
+    }
+
+    /* End of Pengurus */
+
+    /* Footer */
+    .footer__tentang{
+        margin-bottom: 20px;
+    }
+    /* End of Footer */
+}
