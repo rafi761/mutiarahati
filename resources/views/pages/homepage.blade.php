@@ -6,7 +6,7 @@
 <div class="banner__layout">
     <div class="banner__content">
         <h2 class="banner__title">Sanggar Inklusi Mutiara Hati</h2>
-        <p class="banner__des">Sanggar inklusi mutiara hati merupakan sebuah sanggar yang digunakan untuk tempat melakukan therapy kepada anak inklusi. Sanggar ini terletak di ... RT RW, Kateguhan, Tawangsari, Sukoharjo...</p>
+        <p class="banner__des">Sanggar inklusi mutiara hati merupakan sebuah sanggar yang digunakan untuk tempat melakukan therapy kepada anak inklusi. Sanggar ini terletak di Karang Asem RT 02 RW 03, Kateguhan, Tawangsari, Sukoharjo...</p>
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered">
                 <div class="modal-content">
@@ -15,7 +15,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body modal__content">
-                        Sanggar inklusi mutiara hati merupakan sebuah sanggar yang digunakan untuk tempat melakukan therapy kepada anak inklusi. Sanggar ini terletak di ... RT RW, Kateguhan, Tawangsari, Sukoharjo. <br>
+                        Sanggar inklusi mutiara hati merupakan sebuah sanggar yang digunakan untuk tempat melakukan therapy kepada anak inklusi. Sanggar ini terletak di Karang Asem RT 02 RW 03, Kateguhan, Tawangsari, Sukoharjo. <br>
                         Sanggar ini menyediakan tiga jenis therapy untuk kebutuhan anak inklusi, yaitu ada okupasi terapi untuk motorik, fisioterapi untuk gerak, dan terapi wicara.
                     </div>
                     <div class="modal-footer">
@@ -38,7 +38,7 @@
             <div class="about__left">
                 <h1 class="about__title">Tentang Kami</h1>
                 <hr class="about__border">
-                <p class="about__des">Sanggar inklusi mutiara hati merupakan sebuah sanggar yang digunakan untuk tempat melakukan therapy kepada anak inklusi. Sanggar ini terletak di ... RT RW, Kateguhan, Tawangsari, Sukoharjo...</p>
+                <p class="about__des">Sanggar inklusi mutiara hati merupakan sebuah sanggar yang digunakan untuk tempat melakukan therapy kepada anak inklusi. Sanggar ini terletak di Karang Asem RT 02 RW 03, Kateguhan, Tawangsari, Sukoharjo...</p>
                 <a href="#" class="about__btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Tentang Kami</a>
             </div>
         </div>

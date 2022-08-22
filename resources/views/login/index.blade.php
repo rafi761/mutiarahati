@@ -58,7 +58,7 @@
                     </div>
 
                     <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
-                    <p class="text-center mt-3">Daftar Khusus Admin <a href="/register" class="text-decoration-none">Daftar</a></p>
+                    {{-- <p class="text-center mt-3">Daftar Khusus Admin <a href="/register" class="text-decoration-none">Daftar</a></p> --}}
                     <p class="mt-5 mb-3 text-muted mb-5">&copy; 2022</p>
                 </form>
             </main>
