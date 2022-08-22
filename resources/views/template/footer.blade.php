@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-4 footer__contact">
                 <h4>Hubungi Kami</h4>
-                <p>Telp : -</p>
+                <p>Telp : -</p> 
                 <p>Whatsapp : 085692237682</p>
                 <p>Karang Asem Rt 02 Rw 03 Kateguhan, Tawangsari, Sukoharjo</p>
             </div>
